@@ -1,4 +1,4 @@
-# Buildroot for RADCXA CM3IO
+# Buildroot for RADXA CM3IO
 
 **Work in progress!**
 
