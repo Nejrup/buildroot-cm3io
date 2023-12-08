@@ -1,6 +1,14 @@
-# Buildroot for RADCXA CM3IO
+# Buildroot for RADXA CM3IO
 
 **Work in progress!**
+
+Goal is too get a fully working boot using newest u-boot (2023.10) & mainline linux kernel (6.6)
+
+Progress:
+- [x] Functional boot
+- [ ] HDMI
+- [ ] Ethernet
+- [ ] ...
 
 ## Build instructions
 ```
