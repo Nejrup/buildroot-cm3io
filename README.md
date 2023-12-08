@@ -7,7 +7,7 @@
 git clone https://github.com/buildroot/buildroot
 git clone https://github.com/Nejrup/buildroot-cm3io
 cd buildroot
-make BR2_EXTERNAL=$(pwd)/../buildroot-cm3io radxacm3io_defconfig
+make BR2_EXTERNAL=../buildroot-cm3io radxacm3io_defconfig
 make
 ```
 
