@@ -11,6 +11,6 @@ make BR2_EXTERNAL=$(pwd)/../buildroot-cm3io radxacm3io_defconfig
 make
 ```
 
-##Flashing
+## Flashing
 
 Flash buildroot/output/images/sdcard.img to an SD card and interact using the serial console (baudrate 115200n8).
