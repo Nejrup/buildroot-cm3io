@@ -6,8 +6,8 @@ Goal is too get a fully working boot using newest u-boot (2023.10) & mainline li
 
 Progress:
 - [x] Functional boot
-- [ ] HDMI
-- [ ] Ethernet
+- [x] Ethernet
+- [ ] HDMI?
 - [ ] ...
 
 ## Build instructions
