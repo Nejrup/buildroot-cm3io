@@ -6,7 +6,6 @@ Progress:
 - [x] Succesfully booting to root
 
 ## Info
-- All device tree overlays (.dts) placed in the 'overlays/' directory will be compiled to .dtbo. Add them to 'extlinux.conf' to load them during boot.
 - Modifications to the default cm3io defconfigs for U-Boot or Linux Kernel can be made in the .fragment files.
 
 ## Build instructions
