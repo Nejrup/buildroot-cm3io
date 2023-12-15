@@ -7,6 +7,13 @@ Progress:
 
 ## Info
 - Modifications to the default cm3io defconfigs for U-Boot or Linux Kernel can be made in the .fragment files.
+- Modify extlinux.conf to assign the root disk:
+  - eMMC:  ```root=/dev/mmcblk0p2```
+  - SD:    ```root=/dev/mmcblk1p2```
+ 
+## Known Issues
+- eDP controller & eDP Phy is not yet ported to mainline, so wont work for now.
+  - To enable eDP use radxa kernel instead: https://github.com/radxa/kernel/tree/linux-5.10-gen-rkr4.1
 
 ## Build instructions
 ```
